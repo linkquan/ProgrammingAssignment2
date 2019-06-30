@@ -4,7 +4,19 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
+  ##test the github
+  cachemean<- function(x, ...){
+    m<- x$getmean()
+    if(!is.null(m)){
+      message("getting cached data")
+      return(m)
+      
+    }
 
+  }
+  
+  
+  
 }
 
 
